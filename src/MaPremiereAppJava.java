@@ -44,5 +44,16 @@ public class MaPremiereAppJava {
         System.out.println("Le nombre de places: " + nombrePlaces );
         System.out.println("Le nombre de portes: " + nombrePortes );
 
+        System.out.println("conversion");
+        short nouveauNombrePlaces = nombrePlaces;
+        System.out.println("Nouvelle valeur du nombre de places :" + nouveauNombrePlaces);
+
+        int nouveauKilometrage = kilometrage;
+        System.out.println("Nouvelle valeur du Kilométrage :" + nouveauKilometrage);
+
+        byte nouvellePuissance = (byte) puissance;
+        // Byte trop petit pour la quantité de données à retranscrire, bien choisir le type de données
+        System.out.println("Nouvelle valeur de la puissance :" + nouvellePuissance);
+
     }
 }
